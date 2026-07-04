@@ -65,7 +65,7 @@
 
 <p>ভৌতিক গল্প</p>
 
-<a href="books/abhishapto.pdf">
+<a href="https://www.scribd.com/document/1056983818/obhishopto-chokh-psycho-writer">
 
 Read PDF
 
@@ -79,7 +79,7 @@ Read PDF
 
 <p>রোমান্টিক রহস্য</p>
 
-<a href="books/opori.pdf">
+<a href="https://www.scribd.com/document/1056742825/o-pori-story-book-psycho-writer">
 
 Read PDF
 
@@ -93,7 +93,7 @@ Read PDF
 
 <p>ভালোবাসার গল্প</p>
 
-<a href="books/kolpona.pdf">
+<a href="https://drive.google.com/file/d/11DeBSp4AhJazmQg0wFKp90irayvcOKBO/view?usp=drivesdk">
 
 Read PDF
 
