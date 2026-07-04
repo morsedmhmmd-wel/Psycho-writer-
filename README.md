@@ -1,103 +1,177 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psycho Writer</title>
 
-<title>Psycho Writer | সাহিত্য</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+body{
+background:#111;
+color:white;
+}
 
-<link rel="stylesheet" href="style.css">
+header{
+background:#000;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+color:#ff2d55;
+font-size:40px;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+nav a:hover{
+color:#ff2d55;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+color:#ccc;
+}
+
+section{
+padding:50px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+width:300px;
+background:#222;
+border-radius:10px;
+padding:20px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card h3{
+margin:15px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#ff2d55;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
 </head>
-
 <body>
 
 <header>
-
-<div class="logo">
 <h1>Psycho Writer</h1>
-</div>
 
 <nav>
-
 <a href="#">Home</a>
-
-<a href="books.html">Books</a>
-
-<a href="stories.html">Stories</a>
-
-<a href="about.html">About</a>
-
-<a href="contact.html">Contact</a>
-
+<a href="#">Books</a>
+<a href="#">Stories</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
 </nav>
 
 </header>
 
-<section class="hero">
+<div class="hero">
+<h2>Welcome to Psycho Writer</h2>
+<p>বাংলা গল্প, হরর গল্প, উপন্যাস এবং সাহিত্যিক বইয়ের সংগ্রহ।</p>
+</div>
 
-<h2>স্বাগতম Psycho Writer-এ</h2>
+<section>
 
-<p>
+<h2 align="center">Featured Books</h2>
 
-ভৌতিক, রহস্য, ভালোবাসা এবং সাহিত্যিক গল্পের এক অনন্য জগৎ।
-
-</p>
-
-<a href="books.html" class="btn">
-
-বই পড়ুন
-
-</a>
-
-</section>
-
-<section class="latest">
-
-<h2>সর্বশেষ প্রকাশিত বই</h2>
+<br><br>
 
 <div class="cards">
 
 <div class="card">
 
+<img src="book.jpg">
+
 <h3>অভিশপ্ত চোখ</h3>
 
-<p>ভৌতিক গল্প</p>
+<p>একটি ভয়ংকর হরর গল্প।</p>
 
-<a href="https://www.scribd.com/document/1056983818/obhishopto-chokh-psycho-writer">
-
-Read PDF
-
-</a>
+<a href="books/abhisapto.pdf" class="btn">Read PDF</a>
 
 </div>
 
 <div class="card">
 
-<h3>ও পরী</h3>
+<img src="book2.jpg">
 
-<p>রোমান্টিক রহস্য</p>
+<h3>ও পরী?</h3>
 
-<a href="https://www.scribd.com/document/1056742825/o-pori-story-book-psycho-writer">
+<p>রহস্য ও ভালোবাসার গল্প।</p>
 
-Read PDF
-
-</a>
+<a href="books/opori.pdf" class="btn">Read PDF</a>
 
 </div>
 
 <div class="card">
+
+<img src="book3.jpg">
 
 <h3>কল্পনাতে তুমি</h3>
 
-<p>ভালোবাসার গল্প</p>
+<p>রোমান্টিক উপন্যাস।</p>
 
-<a href="https://drive.google.com/file/d/11DeBSp4AhJazmQg0wFKp90irayvcOKBO/view?usp=drivesdk">
-
-Read PDF
-
-</a>
+<a href="books/kolponate_tumi.pdf" class="btn">Read PDF</a>
 
 </div>
 
@@ -107,16 +181,11 @@ Read PDF
 
 <footer>
 
-<p>
+<h3>Psycho Writer</h3>
 
-© 2026 Psycho Writer
-
-</p>
+<p>© 2026 All Rights Reserved.</p>
 
 </footer>
 
-<script src="script.js"></script>
-
 </body>
-
 </html>
